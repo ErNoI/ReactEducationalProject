@@ -27,16 +27,12 @@ The project includes a navigation system that allows you to switch between exerc
 src/
 ├── Exercise1/
 │   ├── Exercise1.tsx
-│   └── Exercise1.css
 ├── Exercise2/
 │   ├── Exercise2.tsx
-│   └── Exercise2.css
 ├── Exercise3/
 │   ├── Exercise3.tsx
-│   └── Exercise3.css
 ├── Exercise4/
 │   ├── Exercise4.tsx
-│   └── Exercise4.css
 └── main.tsx
 ```
 
