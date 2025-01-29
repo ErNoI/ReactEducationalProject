@@ -2,6 +2,11 @@
 
 A collection of progressive React exercises designed to help beginners learn React concepts step by step using TypeScript and Vite.
 
+## Prerequisite
+
+1. Node.js installed
+2. npm installed
+
 ## Getting Started
 
 1. Clone the repository
