@@ -6,7 +6,6 @@ import React, { useState } from "react";
 // 3. onChange event
 
 const Exercise3: React.FC = () => {
-  // Create state variables for both number inputs
   const [number1, setNumber1] = useState<number>(0);
   const [number2, setNumber2] = useState<number>(0);
 
