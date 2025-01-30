@@ -5,6 +5,8 @@ import React, { useState } from "react";
 // 2. how to update useState variable
 // 3. onChange event
 
+//Explanation: Want to show the sum and difference of two numbers entered by the user
+
 const Exercise3: React.FC = () => {
   const [number1, setNumber1] = useState<number>(0);
   const [number2, setNumber2] = useState<number>(0);
