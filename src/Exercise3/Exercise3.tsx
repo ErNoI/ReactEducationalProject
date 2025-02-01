@@ -21,6 +21,7 @@ const Exercise3: React.FC = () => {
           value={number2}
           placeholder="Enter second number"
         />
+        <button>show Result</button>
       </div>
 
       <div>
