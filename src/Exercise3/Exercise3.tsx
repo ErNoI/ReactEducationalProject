@@ -13,12 +13,9 @@ const Exercise4: React.FC = () => {
 
   return (
     <div>
-      <button>Red</button>
-
+      <h1>Exercise 3</h1>;<button>Red</button>
       <button>Blue</button>
-
       <button>Green</button>
-
       <div
         style={{
           backgroundColor: "yellow", // change the string to the useState variable

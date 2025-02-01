@@ -4,6 +4,8 @@ import React, { useState } from "react";
 // 1. useState variable
 // 2. how to update useState variable
 // 3. onChange event
+// 4. handle event data in onChange event
+// 5. Onlcick event
 
 //Explanation: Want to show the sum and difference of two numbers entered by the user
 
@@ -13,7 +15,7 @@ const Exercise3: React.FC = () => {
 
   return (
     <div>
-      <h1>Exercise 3</h1>
+      <h1>Exercise 4</h1>
 
       <div>
         <input type="number" value={number1} placeholder="Enter first number" />
