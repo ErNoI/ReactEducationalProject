@@ -9,6 +9,8 @@ import React from "react";
 //Explanation: When the Red button is pressed the div should turn red, when the Blue button is pressed the div should turn blue and when the Green button is pressed the div should turn green
 
 const Exercise4: React.FC = () => {
+  //add usestate variable here
+
   return (
     <div>
       <button>Red</button>
@@ -19,7 +21,7 @@ const Exercise4: React.FC = () => {
 
       <div
         style={{
-          backgroundColor: "yellow",
+          backgroundColor: "yellow", // change the string to the useState variable
           width: "100px",
           height: "100px",
           marginTop: "10px",
