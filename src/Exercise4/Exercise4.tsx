@@ -1,34 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 
 //Knowledge to learn to pass this exercise:
 // 1. useState variable
 // 2. how to update useState variable
-// 3. onClick event
-// 4. inline style
+// 3. onChange event
 
-//Explanation: When the Red button is pressed the div should turn red, when the Blue button is pressed the div should turn blue and when the Green button is pressed the div should turn green
+//Explanation: Want to show the sum and difference of two numbers entered by the user
 
-const Exercise4: React.FC = () => {
-  //add usestate variable here
+const Exercise3: React.FC = () => {
+  const [number1, setNumber1] = useState<number>(0);
+  const [number2, setNumber2] = useState<number>(0);
 
   return (
     <div>
-      <button>Red</button>
+      <h1>Exercise 3</h1>
 
-      <button>Blue</button>
+      <div>
+        <input type="number" value={number1} placeholder="Enter first number" />
+        <input
+          type="number"
+          value={number2}
+          placeholder="Enter second number"
+        />
+        <button>show Result</button>
+      </div>
 
-      <button>Green</button>
-
-      <div
-        style={{
-          backgroundColor: "yellow", // change the string to the useState variable
-          width: "100px",
-          height: "100px",
-          marginTop: "10px",
-        }}
-      ></div>
+      <div>
+        <p>Sum: {/* Add the sum here */}</p>
+        <p>Difference: {/* Add the difference here */}</p>
+      </div>
     </div>
   );
 };
 
-export default Exercise4;
+export default Exercise3;
