@@ -4,6 +4,7 @@ import React, { useState } from "react";
 // 1. useState variable
 // 2. how to update useState variable
 // 3. onChange event
+// 4. handle event data in onChange event
 
 //Explanation: Want to show what user writes in the input field in the div below
 

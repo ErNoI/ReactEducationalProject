@@ -6,6 +6,8 @@ import React from "react";
 // 3. onClick event
 // 4. inline style
 
+//Explanation: When the Red button is pressed the div should turn red, when the Blue button is pressed the div should turn blue and when the Green button is pressed the div should turn green
+
 const Exercise4: React.FC = () => {
   return (
     <div>

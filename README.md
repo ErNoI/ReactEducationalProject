@@ -1,6 +1,6 @@
 # React Learning Exercises
 
-A collection of progressive React exercises designed to help beginners learn React concepts step by step using TypeScript and Vite.
+A collection of progressive React exercises designed to help beginners learn React concepts step by step using TypeScript.
 
 ## Prerequisite
 
@@ -48,7 +48,7 @@ Each exercise is designed to be completed in order, as they build upon concepts 
 1. Read the comments in each exercise file to understand the learning objectives
 2. Attempt to complete the exercise requirements
 3. Test their implementation
-4. Move on to the next exercise once comfortable with the current concepts
+4. Move on to the next exercise
 
 ## Contributing
 
