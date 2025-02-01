@@ -6,6 +6,8 @@ import React, { useState } from "react";
 // 3. onChange event
 // 4. handle event data in onChange event
 // 5. Onlcick event
+// 6. Convert String to Number
+// 7. Math abs function (optional)
 
 //Explanation: Want to show the sum and difference of two numbers entered by the user
 
